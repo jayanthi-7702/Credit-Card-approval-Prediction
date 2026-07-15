@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+
+<style>
+
+body{
+    font-family:Arial,Helvetica,sans-serif;
+    background:#eef2f7;
+    margin:0;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+}
+
+h1{
+    text-align:center;
+    color:#0b5394;
+    margin-bottom:30px;
+}
+
+.cards{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.card{
+    flex:1;
+    min-width:220px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 10px rgba(0,0,0,.2);
+}
+
+.card h2{
+    color:#0b5394;
+}
+
+.card p{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.back{
+    margin-top:30px;
+    text-align:center;
+}
+
+button{
+    padding:12px 25px;
+    background:#0b5394;
+    color:white;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#073763;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>📊 Credit Card Approval Dashboard</h1>
+
+<div class="cards">
+
+<div class="card">
+<h2>Total Applications</h2>
+<p>{{ total }}</p>
+</div>
+
+<div class="card">
+<h2>Approved</h2>
+<p>{{ approved }}</p>
+</div>
+
+<div class="card">
+<h2>Rejected</h2>
+<p>{{ rejected }}</p>
+</div>
+
+<div class="card">
+<h2>Approval Rate</h2>
+<p>{{ approval_rate }}%</p>
+</div>
+
+</div>
+    <div style="text-align:center; margin-top:40px;">
+
+    <h2 style="text-align:center;">Approval Statistics</h2>
+
+    <div style="display:flex;
+                justify-content:center;
+                gap:30px;
+                flex-wrap:wrap;
+                margin-top:20px;">
+
+        <div>
+            <h3 style="text-align:center;">Pie Chart</h3>
+            <img src="{{ url_for('static', filename='approval_chart.png') }}"
+                 width="350"
+                 style="border-radius:10px;
+                        box-shadow:0 0 10px rgba(0,0,0,.2);">
+        </div>
+
+        <div>
+            <h3 style="text-align:center;">Bar Chart</h3>
+            <img src="{{ url_for('static', filename='approval_bar.png') }}"
+                 width="450"
+                 style="border-radius:10px;
+                        box-shadow:0 0 10px rgba(0,0,0,.2);">
+        </div>
+
+    </div>
+
+</div>
+
+<div class="back">
+
+<a href="/">
+<button>
+🏠 Back to Home
+</button>
+</a>
+
+</div>
+
+</div>
+
+</body>
+</html>

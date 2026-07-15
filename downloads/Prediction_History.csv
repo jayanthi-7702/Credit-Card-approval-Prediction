@@ -1,0 +1,25 @@
+﻿PredictionID,ApplicantID,ApprovalResult,RiskCategory,PredictionDate
+1,1,✅ Credit Card Approved,🔴 High Risk,2026-07-10 23:49:27
+2,1,✅ Credit Card Approved,🔴 High Risk,2026-07-10 23:55:04
+3,1,✅ Credit Card Approved,🔴 High Risk,2026-07-11 00:00:57
+4,1,✅ Credit Card Approved,🔴 High Risk,2026-07-11 00:01:35
+5,1,✅ Credit Card Approved,🔴 High Risk,2026-07-11 00:06:48
+6,1,✅ Credit Card Approved,🔴 High Risk,2026-07-11 00:15:19
+7,1,✅ Credit Card Approved,🔴 High Risk,2026-07-11 00:16:46
+8,1,✅ Credit Card Approved,🟡 Medium Risk,2026-07-11 00:17:46
+9,1,✅ Credit Card Approved,🟡 Medium Risk,2026-07-11 00:27:41
+10,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-11 00:28:55
+11,1,✅ Credit Card Approved,🟢 Low Risk,2026-07-11 00:29:58
+12,1,❌ Credit Card Rejected,🟡 Medium Risk,2026-07-11 17:49:57
+13,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-11 17:51:49
+14,1,✅ Credit Card Approved,🟢 Low Risk,2026-07-11 17:52:53
+15,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-11 17:57:17
+16,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-11 18:12:02
+17,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-11 21:26:28
+18,1,✅ Credit Card Approved,🟡 Medium Risk,2026-07-11 21:27:50
+19,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-13 19:45:38
+20,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-13 21:21:08
+21,1,✅ Credit Card Approved,🟡 Medium Risk,2026-07-13 21:23:05
+22,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-13 21:34:34
+23,1,✅ Credit Card Approved,🟡 Medium Risk,2026-07-13 21:42:00
+24,1,❌ Credit Card Rejected,🟢 Low Risk,2026-07-15 18:06:20
